@@ -1,0 +1,3 @@
+my_model.h5 -> Model made by me
+Pretrained_Model.h5 -> Model made using Transfer learning, using weights of Mobile Net Model.
+haarcascade_frontalface_default.xml -> Pre-trained Model used for Face Recogination
