@@ -16,7 +16,7 @@ import tempfile
 
 DEMO_IMAGE = "Reports\demo.jpg"
 DEMO_VIDEO = "Reports\demo-video.mp4"
-classifier = load_model("Models\my_model.h5")
+classifier = load_model("..\Models\my_model.h5")
 face_classifier = cv2.CascadeClassifier(
     "C:\\Users\\pranav.singhal\\AppData\\Local\\Programs\\Python\\Python37\\Lib\\site-packages\\cv2\\data\\haarcascade_frontalface_default.xml"
 )
