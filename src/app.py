@@ -4,7 +4,7 @@ import streamlit as st
 
 from PIL import Image
 import numpy as np
-from cv2 import *
+import cv2
 import tensorflow as tf
 from tensorflow.keras.preprocessing import image as SImage
 from keras.preprocessing.image import img_to_array
